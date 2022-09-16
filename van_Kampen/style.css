@@ -1,0 +1,29 @@
+body {
+  background-color: #ebd5b3;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h1 {
+  font-family: "Old English Text MT";
+  text-align:center;
+  color:#cc4542;
+}
+p {
+  font-family: "Century Schoolbook";
+  text-align: justify;
+}
+ul {font-family:"Century Schoolbook"
+}
+a:link{
+  text-decoration:none;
+  color:#003366}
+a:visited{
+  text-decoration:none;
+  color:#cc4542}
+a:hover{
+  text-decoration: underline;
+}
+table, th, td{
+  border: 1px solid;
+  border-color:#cc4542;
+}
