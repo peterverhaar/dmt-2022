@@ -1,0 +1,6 @@
+body {font-family: verdana; margin-left: 10%; margin-right: 10%}
+h1 {color:#000066}
+/* new links */
+a {color: pink; text-decoration:none}
+/* visited links */
+a {color:fuchsia; text-decoration:underline}
