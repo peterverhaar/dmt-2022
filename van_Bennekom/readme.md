@@ -1,3 +1,3 @@
-# Week two assigment
+# Homework assigments
 
-This is the html page i made for the week two assignment
+This is the html page I made for all homework assignments
