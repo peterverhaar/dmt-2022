@@ -1,3 +1,3 @@
 # Homework assigments
 
-This is the html page I made for all homework assignments
+This is the folder for all homework assignments by me, Aniek van Bennekom
