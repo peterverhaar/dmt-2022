@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="attributes.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<attributes>
+  <p>
+    <movement>Modernism</movement> made an impact <period>early in the 20th century</period>. Artists such as the <nationality type="fr">Frenchman</nationality> <persName type="Visual Artist">Henri Matisse</persName>, the <nationality type="no">Norwegian</nationality> <persName type="painter">Edvard Munch</persName> (whose <year>1893</year>
+    <title type="painting">The Scream</title>
+    summed up modern urban alienation) and the
+    <nationality type="at">Austrian</nationality> <persName type="painter">Oskar Kokoschka</persName> used vivid colours and broad brushstrokes to express mood and emotion, and the personal feelings evoked by a situation rather than the way it literally looked. Much avant-garde <movement>modernist</movement> culture &#8211; books such as <persName type="writer">James Joyce</persName>&apos;s
+    <title type="novel">Ulysses</title>
+    , poems such as <persName type="poet">T. S. Eliot</persName>&apos;s
+    <poem>The Waste Land</poem>
+    and <persName type="poet">Ezra Pound</persName>&apos;s
+    <title type="poem">Hugh Selwyn Mauberley</title>
+    , modern art, modern architecture, ballets staged by <persName type="impresario">Sergei Diaghilev</persName> &#8211; was, for most of the <period>first half of the 20th century</period>, only enjoyed by small groups of intellectuals. The public reacted with jeers and contempt to <persName type="composer">Stravinsky</persName>&apos;s
+    <title type="ballet">The Rite of Spring</title>
+    , and <persName type="writer">D.H. Lawrence</persName>&apos;s
+    <title type="novel">Lady Chatterley's Lover</title>
+    has been banned in the <country type="gb">UK</country> for several decades. Whereas <persName type="writer">Pirandello</persName>&apos;s
+    <title type="play">Six Characters in Search of an Author</title>
+    and <persName type="playwright">Ionesco</persName>&apos;s
+    <title type="play">Rhinoceros</title>
+    shaped the face of <movement>modernism</movement> in the theatre, their first stagings attracted extremely hostile public reactions.
+  </p>
+</attributes>
