@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary"> 
+                <p>
+                    Letter from Kenneth Leys to <persName key="Q703935">Leonard Woolf</persName>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName> <del>Rost&apos;h</del><lb/>Rosthwaite <lb/>N Keswick <lb/>
+                        </placeName>
+                        <date when="1924-08-13">
+                            13th Augt.<lb/>
+                        </date>
+                    </dateline>                  
+                    <salute>
+                        Dear Mr <persName key="Q703935">Woolf</persName><lb/>
+                    </salute>
+                </opener>
+                <p>
+                    My brother sends me a <lb/>letter for you which I hasten to send <lb/>am. He wished me to read it <lb/>&#43;to send you my opinion. <lb/>I am too <unclear reason="bad handwriting" cert="low">ignorant</unclear> to have a <lb/>clear view, I do not see how you <lb/>can attach any weight to my <lb/>opinion. In what it is worth <lb/>my judgement <unclear reason="bad handwriting" cert="low">too</unclear> he in favour <lb/>1.<unclear reason="bad handwriting" cert="unknown"></unclear> advertising the <unclear reason="bad handwriting" cert="unknown"></unclear> <unclear reason="bad handwriting" cert="unknown"></unclear>. <lb/>2. <unclear reason="bad handwriting" cert="unknown"></unclear> limiting the total expense <pb/>to my brother as far as possible.<lb/> By printing not more than 1050 copies, <lb/>&#43;<unclear reason="bad handwriting" cert="unknown"></unclear> fixing the sale&#45;price at the lower <lb/><unclear reason="bad handwriting" cert="medium">price</unclear>. An index does not seem to <lb/>me particularly necessary. <lb/>Advertising seems to me <unclear reason="bad handwriting" cert="medium">as</unclear> <lb/>necessary: particularly arrangements <lb/>for reviews. But I think my <lb/>brother is likely to overestimate the <lb/>probable sale.<lb/><pb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours sincerely <lb/>
+                    </salute>
+                    <signed/> K Leys <lb/>
+                    <seg type="postscript">
+                        Please do not trouble to <unclear reason="bad handwriting" cert="unknown"></unclear> this <lb/>
+                    </seg>
+                </closer>
+            </div>
+       </body>
+    </text>
+</TEI>

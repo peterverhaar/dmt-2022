@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary"> 
+                <p>
+                    Letter from Norman Leys to <persName key="Q703935">Leonard Woolf</persName>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1924-08-13">
+                            <emph rend="underlined">13th Aug. 1924</emph> <lb/>
+                        </date>
+                    </dateline>                  
+                    <salute>
+                        Dear <persName key="Q703935">Woolf</persName>, <lb/>
+                    </salute>
+                </opener>
+                <p>
+                    &#49; I <unclear reason="bad handwriting" cert="high">refuse</unclear> the agreement duly <lb/>Signed. &#50; We should like either <lb/>P.V. &#48;&#49;&#50; or PVA. &#52;&#53;&#50; for binding. <lb/>&#51; I am most anxious &#45; <lb/>suppose needlessly anxious &#45; that Major <unclear reason="bad handwriting" cert="medium">Church</unclear> &#40;Lnb. M.P.&#41; and Mr. Linfield <lb/>should have read the <del rend="strikethrough">facts in my</del> &#40;Lnb. M.P.&#41; <lb/>statements in my book <emph rend="underscored">before</emph> they <lb/><del rend="strikethrough"><unclear reason="bad handwriting" cert="low">all</unclear>into</del>land in <placeName>Africa</placeName> <unclear reason="bad handwriting" cert="unknown"></unclear> be led<lb/>about with blinkers on them. Can <lb/><pb/>you as Secretary of the advisory <lb/>Commitee invest your advice <unclear reason="bad handwriting" cert="unknown"></unclear> read <lb/> the book with so great authority <lb/>and <unclear reason="bad handwriting" cert="unknown"></unclear> that it will be <lb/> done&#63; &#52; I hope that by this time <lb/>you have got another letter of mine <lb/>from my brother. <lb/>&#53; Can you lend me a pamphlet <lb/>with instructions on proofcorrecting? Or <lb/>does <unclear reason="bad handwriting" cert="unknown"></unclear> have his own code? If <lb/>so would Clark send me his and will you <lb/>ask him to?
+                </p>
+                <closer>
+                    <signed/><emph rend="underlined">N Leys</emph> <lb/>
+                </closer>
+            </div>
+       </body>
+    </text>
+</TEI>
