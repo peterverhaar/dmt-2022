@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q70393530091925">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Leonard Woolf to Norman Leys, 30 September 1925 : A
+                    machine-readable transcription</title>
+                <author>
+                    Leonard Woolf
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Aniek van Bennekom
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Aniek van Bennekom
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Aniek van Bennekom
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q70393530091925 
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2022</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <persName key="Q703935">Leonard Woolf</persName> to <persName key="Q7052495">Norman Leys</persName>, <date when="1925-09-30">30 September 1925</date>.
+                    </title>
+                    <author>
+                        Leonard Woolf
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2022-2023
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    The author describes how they should discuss the pay of the recipient,
+                    as well as a cheap edition of the book the recipient wrote, some of which
+                    already went to America through a wholesaler.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                        </placeName>
+                        <date when="1925-09-30">
+                            30 September, 1925
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName key="Q7052495"></persName>
+                        </addrLine>
+                        <addrLine>
+                            Brailsford,
+                            Near Derby
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Leys,
+                    </salute>
+                </opener>
+                <p>
+                    I enclose a cheque for £20. I will look into the a/c when
+                    I go back to town on Friday for good and see whether we ought not to
+                    pay you more.
+                    We must certainly discuss the cheap edition when you are in town.
+                    It would be most important to get organizations to take it. I think
+                    it is almost certain that some of the copies sold during the last 
+                    weeks went to America, as Simpkins, the wholesalers, took two lots
+                    of 12 with a very short interval--which looks, considering what sales 
+                    had been, as if they had an order of 6 or 12 for export quite suddenly.
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                        Leonard Woolf
+                    </salute>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
