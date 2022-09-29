@@ -1,0 +1,71 @@
+<archive name>
+Ms 2750/2SS/105
+</archive name>
+<TEI>
+<text>
+<front>
+<div type="summary">
+<p>
+<persName>Norman Leys<persName> writes to <persName>Leonard Woolf<persName> about his plan on sueing the <orgName>Daily Express</orgName>. He is asking <persName>Leonard Woolf</persName> for advice and maybe a friend or a lawyer who can help him.
+</p>
+</div>
+</front>
+<body>
+<div type="typed letter">
+<dateline>
+<placeName>
+Brailsford
+</placeName>
+<unclear reason="ink smudged" cert="medium"></unclear>
+</dateline>
+<address>
+<addrLine>
+<Leonard Woolf>
+<salute>
+Dear <persName>Wolff</persName>,
+</salute>
+</opener>
+<p>
+These are the worst of a bundle that arrived this morning. They
+seem to me to transform the situation and I ask your advice on it
+not merely because your reputation is also involved but because I
+much want to know what you think.
+First thoughts on the <orgName>Daily Express<orgName> cutting force me to the view
+that is my duty to sue the paper. I can see only one good rea-
+son for refraining, the loathing with which my wife would regard 
+the proceeding. If I don't, on the other hand, my evidence, past
+and future, everything I have written and anything I may ever
+write is publicly discredited. I can think of no other wat of 
+escape from the position of a man <unclear reason="ink smudged" cert="medium"></unclear> who is proved on official
+evidence to be a liar. It would not be enough, for example to
+make the &apos;Express&apos; give me a whole column in answer. People in fut-
+ure would simply allude to me and, what matter far more, to what
+I have written, as a person and a book of notorious falsity. That 
+is quite clearly my first view an I cannot imagine anything to
+make it different after a month&apos;s reflection.
+Is there any friend in the great world to whom you could venture
+to submit the point? I enclose the draft of what I proposed to 
+write to the press, a procedure that now seems to me so inadequate.
+
+<salute>			yours
+/salute>
+</p>
+Norman Leys
+<signed/>
+<seg>
+PS.
+On second thought I don&apos;t see why I should trouble 
+you with the statement.
+I could go to <placeName>London</placeName> on Friday. Is there any 
+lawyer of special experience you think I might 
+consult on that day?
+The white paper does not say that
+Anything I alleged was &quot;Cruel & malicious&quot;
+Or &quot;The precise opposite of the truth&quot;
+- See pile of the Cind. 2629.
+</seg>
+</closer>
+</div>
+</body>
+</text>
+</TEI>
