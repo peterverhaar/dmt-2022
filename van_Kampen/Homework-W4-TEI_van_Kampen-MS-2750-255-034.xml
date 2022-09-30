@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="MS-2750-255-034">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Norman Leys to Leonard Woolf, 23-08-1924: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Leanne van Kampen
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Leanne van Kampen
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2022</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Norman Leys to Leonard Woolf, 23-08-1924
+                    </title>
+                    <author>
+                        Norman Leys
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2022-2023 Digital Media and Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1924-08-23">
+                            23rd August - 1924
+                        </date>
+                    </dateline>
+                    <salute>
+                        Dear Woolf, 
+                    </salute>
+                </opener>
+                <p>
+                    There were half a dozen <lb/>
+                    or more <gap reason="illegible" extent="1 word"/> and passages as <lb/> 
+                    to which I expected you to after <lb/>
+                    criticism of <unclear reason="bad handwriting">either</unclear> some inexpediency <lb/>
+                    or some lapse from good taste. I <lb/>
+                    often wished I could forsee just <lb/>
+                    which sentences would show their <lb/>
+                    faults on the printed page. But I <lb/>
+                    never expected you to object to my <lb/>
+                    D.P.H. I am afraid I rather badly
+                    <pb/>
+                </p>
+                <p>
+                    want to proclaim it. I shall explain <lb/>
+                    why when we do meet, as some <lb/>
+                    day we surely must. <lb/>
+                    That first chapter reads - in print <lb/>
+                    - hastily and scrappily as if I <lb/>
+                    wanted to start the reader off at top <lb/>
+                    speed. Also there are one or two sentences <lb/>
+                    too emotional. I hope to think better <lb/>
+                    of chap <gap reason="illegible" extent="1 word"/>.
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                    </salute>
+                    <signed><persName key="Q7052495">Norman Leys</persName></signed>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
