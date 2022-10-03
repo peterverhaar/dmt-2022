@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                  A letter from Leonard Woolf to Norman Leys responding to a previous letter.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName key="Q864197">
+                            <p> Monk's House <lb/>
+                                Rodmell <lb/>
+                                Near Lewes <lb/>
+                                Sussex
+                            </p>
+                        </placeName>
+                        <date when="1925-08-14">
+                          14/8/25
+                        </date>
+                    </dateline>
+
+                    <salute>
+                        <p> Dear <persName key="Q7052495"> Leys </persName> </p>
+                    </salute>
+                </opener>
+                <p style="text-indent:40px; ">
+                  1. I have ordered the book to be bound in PVA452, the <lb/>
+                   red chosen by you.
+                 </p>
+
+                 <p style="text-indent:40px; ">
+                 2. I will try to get you a little pamphlet on proof <lb/>
+ correcting when I go to town on Monday.
+                </p>
+
+                <p style="text-indent:40px; ">
+                3. Will you return the chapters which you are revising as <lb/>
+soon as possible?
+              </p>
+
+              <p style="text-indent:40px; ">
+                4. If I am to send the <choice><abbr>Ms</abbr><expan>manuscript</expan></choice> to Major <persName key="Q4786265">Church</persName> the Labour <choice><abbr>M.P.</abbr><expan>Member of Parliament</expan></choice> <lb/>
+I could certainly write him a letter as <choice><abbr>Sec</abbr><expan>secretary</expan></choice> of the Advisory <choice><abbr>Comm</abbr><expan>committee</expan></choice> <lb/>
+advising him to read the book. You will let me know when and to <lb/>
+ whom I am to send the <choice><abbr>MS.</abbr><expan>manuscript</expan></choice>?
+              </p>
+
+              <p style="text-indent:40px; ">
+                5. I haven't had a letter of yours from your brother.
+                </p>
+                <closer>
+                    <salute>
+                      <p>
+                        Yours
+                      </p>
+                    </salute>
+                    <signed> <persName key="Q703935">Leonard Woolf </persName> </signed>
+
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
