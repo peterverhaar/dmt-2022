@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            New York
+                        </placeName>
+                        <date when="1925-08-18">
+                            18 August, 1925
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Frederick Harris</persName>
+                        </addrLine>
+                        <addrLine>
+                            <p>Association Press</p>
+                            <p>347 Madison Avenue</p>
+                            <p>New York</p>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        <p>Dear Mr Harris,</p>
+                    </salute>
+                </opener>
+                <p>
+                    <persName key="Q7052495">Dr Norman Leys</persName> has forwarded to me your letter regard-<lb/>
+                    ing his book <title>KENYA</title>. Do you think that you would consider taking<lb/>
+                    a certain number of copies in sheets which you could issue in the<lb/>
+                    U.S.A. as your own edition? This would materially limit your expense<lb/>
+                    and risk. The possibility which I have in mind is you’re taking from<lb/>
+                    us say 200 copies in sheets at cost price, which would come to about<lb/>
+                    £15 per hundred excluding carriage to the U.S.A. If you found<lb/>
+                    that you wanted more later and we still had them available, we<lb/>
+                    would let you have a further supply at £15 per 100 copies.
+                </p>
+                <p>
+                    Would you let me know what you think of this? If it is im-<lb/>
+                    possible, I should be glad to send you a small number of bound copies<lb/>
+                    on sale; but in that case, would you let me know the kind of number<lb/>
+                    what she had in mind. As you are aware, the cost of sending a large<lb/>
+                    bound book like <title>KENYA</title> in any numbers is considerable.
+                </p>
+                <closer>
+                    <salute>
+                        Yours truly
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
