@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    A letter from Woolf to Leys, explaining on how many copies Leys should get and how expensive it would be.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Lewes
+                        </placeName>
+                        <date when="1924-08-16">16 August, 1924</date>
+                    </dateline>
+                    <salute>
+                        Dear <persName key="Q7052495">Leys</persName>,
+                    </salute>
+                </opener>
+                <p>
+                    I now have your letter which was forwarded by your brother.<lb/>
+                    The question of numer of copies to be printed and price is always <lb/>
+                    a difficult one and largely a matter of guessing in the dark. My own <lb/>
+                    opinion is that 1050 copies, price 15/-, and an index is the right <lb/>
+                    decision, though of course later we may regret it. If I were produc-<lb/>
+                    ing the book at my risk that is what I should decide on, I am sure.<lb/>
+                    Your brother seems to favour 1050 copies, price 12/6, and no index.<lb/>
+                    Let me have your final decision. Of course, if you would prefer it, <lb/>
+                    I will decide for you, exactly as if I were taking the risk, but , as <lb/>
+                    you are bearing the risk, I think it better to give you all data for <lb/>
+                    a decision of this kind and let you decide.
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                    </salute>
+                    <signed><persName key="Q703935">Leonard Woolf</persName></signed>
+                    <address>
+                        <addrLine>
+                            Monk's House
+                        </addrLine>
+                        <addrLine>
+                            Rodmell
+                        </addrLine>
+                        <addrLine>
+                            Lewes
+                        </addrLine>
+                        <addrLine>
+                            Sussex
+                        </addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
