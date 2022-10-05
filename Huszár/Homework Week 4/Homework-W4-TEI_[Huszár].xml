@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Norman Leys to Leonard Woolf about profitability, the number of book copies sold and using connections with influental freinds.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="YYYY-MM-DD">
+                            1925-11-02
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Leonard Woolf</persName>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Woolf,
+                    </salute>
+                </opener>
+                <p>
+                    Both your original <lb/>
+                    estimates of Cast Jean and <lb/>
+                    your statements in recent <lb/>
+                    months vary a great deal <lb/>
+                    - I don't mean  unreasonably, <lb/>
+                    but they do. Your estimate <lb/>
+                    of a total profit of £35 <lb/>
+                    if the first ed. of 1050 <lb/>
+                    sold out for a selling <lb/>
+                    price of 12/6. (4.8.24). And <lb/>
+                    on 16 July you say you would <lb/>
+                    be amazed if the total cost <lb/>
+                    to me exceeded £300, whereas <lb/>
+                    in your statement of 19.10.25. <lb/>
+                    there is "expenditure, 1st edition, <lb/>
+                    £362.5.4. <lb/>
+                    The chief reason for these <lb/>
+                    variations is I believe <lb/>
+                    commission. You don't usually <lb/>
+                    count it as part of cost. <lb/>
+                    Normally it may not be. <lb/>
+                    Actually it is <gap reason="illegible" extent="2 word"/> <lb/>
+                    salary, rent are part <lb/>
+                    of real production costs.<lb/>
+                    Don't imagine I am <lb/>
+                    finding fault. I am only <lb/>
+                    explaining why I shoke <lb/>
+                    as I did - and, by the <lb/>
+                    way I see in <unclear reason="bad handwriting" cert="high">lens</unclear> of 16.7.24 <lb/>
+                    you anticipate a profit <lb/>
+                    to me of £100 at least <lb/>
+                    from the sale of 1000 copies <lb/>
+                    at 12/6. <lb/>
+                    The omission of commission <lb/>
+                    in your estimate of the <lb/>
+                    [unintelligible] of a 4/6 edition <lb/>
+                    to my mind invalidates <lb/>
+                    them. What I want is to <lb/>
+                    know how actually I should <lb/>
+                    stand A if 1000 copies sold <lb/>
+                    B if 2000 "         " <lb/>
+                    C if 3000 "         " <lb/>
+                    at 4/6. <lb/>
+                    Don't bother to work out <lb/>
+                    the amounts now. Time <lb/>
+                    enough in six months <lb/>
+                    unless of course something <lb/>
+                    happens in Kenya to boost <lb/>
+                    sales.  But by my calcu-<lb/>
+                    lations I shall make <lb/>
+                    no <emph rend="underlined">nothing</emph> profit if 3000 sell <lb/>
+                    at 4/6 and shall lose <lb/>
+                    if fewer sell. So that I <lb/>
+                    <gap reason="illegible" extent="1 word"/> to an edition of <lb/>
+                    4000!<lb/>
+                    What I should be tre-<lb/>
+                    mendously grateful for <lb/>
+                    is that you should <lb/>
+                    present copies to your <lb/>
+                    influential friends, e.g. <lb/>
+                    Bernard Shaw, 'A Hable <lb/>
+                    Hawk' of the New Slatesman. <lb/>
+                    It's no use for me to do if <lb/>
+                    nobody breaks into <gap reason="illegible" extent="1 word"/> <lb/>
+                    ones a letter from me. And <lb/>
+                    speech with me should in <lb/>
+                    quite other sensations. But <lb/>
+                    the notourishing task is that <lb/>
+                    so many people do break <lb/>
+                    in to  various emotions when <lb/>
+                    they read 'Kenya'.
+                </p>
+                <closer>
+                    <salute>
+                        Yours,
+                    </salute>
+                    <signed>Norman Leys</signed>
+                    <seg>
+                        If recent statement <lb/>
+                        from your office makes <lb/>
+                        my profit on the first <lb/>
+                        ed. £81 you now <lb/>
+                        make it £71. I thought <lb/>
+                        at the time £81 must <lb/>
+                        be impossibly high. But <lb/>
+                        don't trouble to go into <lb/>
+                        these things now. I <lb/>
+                        suggest an exact state-
+                        ment and a plan of <lb/>
+                        campaign for the cheap <lb/>
+                        edition complete in more <lb/>
+                        detail - all these in <lb/>
+                        the spring - my last <lb/>
+                        gamble  in authorship!
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
