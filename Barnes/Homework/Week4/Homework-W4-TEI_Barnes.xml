@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Norman Leys to Leonard Woolf requesting clarification on some issues regarding the publishing of a revised and improved version of a pamphlet.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <add place="above">MS 2750/255/97</add>
+                    <dateline>
+                        <date when="1926-02-16">
+                         16-2-26
+                        </date>
+                    </dateline>
+                    <salute>
+                        Dear <persName><surname>Woolf</surname></persName>,</lb>
+                    </salute>
+                </opener>
+                <p>
+                    It was very nice of you to </lb>
+                    put it as you did. But I don’t really </lb>
+                    know if you <emph rend="underlined">want</emph> to publish an </lb>
+                    improved version of that pamphlet. </lb>
+                    The chief question to be answered is </lb>
+                    whether the public could be reached </lb> 
+                    better by the <orgName>Hogarth Press</orgName><note><p>A book publishing imprint of Penguin Random House that was founded in 1917 by Virigina and Lenoard Woolf.</p></note> or by the </lb>
+                    <orgName><choice><abbr>I.L.P</abbr><expan>Independent Labour Party</expan></choice></orgName><note><p>The Independent Labour Party was a British political party of the established in 1893.</p></note>? I suppose your heart </lb>
+                    answers ‘how the hell can I tell’?' </lb>
+                    Subsidiary <supplied reason="strikethrough" cert="high"><del>auestions</del></supplied> questions are 1. What </lb>
+                    price would you sell at? 2 </pb>
+                    2. Who would stand the cost and </lb>
+                    profit or loss – me or you? </lb>
+                    3. Would copies be sent out for </lb>
+                    review? 4. <choice><orig>Right</orig><reg><corr>Might</corr></reg></choice> this pamphlet </lb>
+                    interfere with the sale of the cheap </lb>
+                    <choice><abbr>ed.</abbr><expan>edition</expan></choice> of <title type="book">Kenya</title><note><p>A book written by Norman Leys, published by the Hogarth Press in in 1924.</p></note>? </lb>
+                    Could you answer some of these </lb>
+                    questions?  And if <persName>Keynes'</persName> pamphlet </lb>
+                    has stopped selling, may I have </lb>
+                    a copy?</lb>
+                    I am very glad you told me the </lb>
+                    pamphlet needs rewriting. For </lb>
+                    weeks on end I am incapable of </pb>
+                    <add place="above">MS2750/255/97</add> 3 </lb>
+                    my best. And my best is good </lb> 
+                    enough for publication in so </lb>
+                    restricted a field that I shall </lb>
+                    have to be very careful not to let </lb>
+                    the success of <title type="book">‘Kenya’</title> tempt me </lb>
+                    to put out worthless <choice><orig>shitt</orig><reg>shit</reg></choice>. In this </lb>
+                    care I shall wait a week or two </lb>
+                    and try to improve the pam-</lb>phlet.</lb>
+                    I do wish people would realise </lb>
+                    that in <supplied reason="ink smudge" cert="high">many</supplied> ways I am rather </lb>
+                    stupid. I can arrange, <supplied reason="ink smudge" cert="high">clarify</supplied> </lb>
+                    and in interpret data, can analyze </pb>
+                    and estimate — even foresee so </lb>
+                    far as to plan <add place="above">a</add> <add place="below">&#94;</add> coordinate <unclear reason="bad handwriting" cert="medium">policy</unclear>.</lb>
+                    But the facts must be in full </lb>
+                    sight. I cannot ‘sense’ things.</lb>
+                    So I can contribute nothing original</lb>
+                    except what arises from the </lb>
+                    data themselves when I set them </lb>
+                    in true relation.</lb> 
+                    I hope Mrs. <persName><surname>Woolf</surname></persName> is better, </lb>
+                    long ago.
+                </p>
+                <closer>
+                    <salute>
+                        Yours 
+                    </salute>
+                    <signed>Norman Leys</lb>
+                    <signed/>
+                    <seg type="postscript">
+                        Please send enclosed to <unclear reason="'ink smudge" cert="high">the</unclear> </lb> 
+                        unknown donor of €20
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
