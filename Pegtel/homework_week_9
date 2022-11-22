@@ -1,0 +1,30 @@
+AUTHOR
+Author_ID 
+First_name
+Last_name
+Place_of_birth
+Date_of_birth
+Place_of_death
+Date_of_death
+
+BOOK 
+Title
+A_ID (FK, connected to table author)
+Location_of_publishing
+Book_ID
+Publisher 
+Year_of publishing
+
+BORROWED
+B_ID (FK, connected to table book)
+A_ID (FK, connected to table author)
+V_ID (FK, connected to table visitor)
+Borrow_date
+Returned_date 
+
+VISITOR
+V_ID
+Date_of_birth
+Place_of_birth
+Date_of_death
+Place_of_death
