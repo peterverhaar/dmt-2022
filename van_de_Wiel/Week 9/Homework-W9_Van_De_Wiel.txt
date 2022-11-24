@@ -1,0 +1,41 @@
+ENTITY: BOOK
+ATTRIBUTES:
+[Book] (PK)
+[Book_Title]
+[Author] [FK connected to AUTHOR]
+[Publisher]
+[Place]
+[Date]
+
+ENTITY: AUTHOR
+ATTRIBUTES:
+[Author] (PK)
+[First_Name]
+[Last_Name]
+[Date_Born]
+[Date_Died]
+[Place_Born]
+[Place_Died]
+
+ENTITY: LOAN
+ATTRIBUTES:
+[Loan] (PK)
+[Book] [FK connected to BOOK]
+[Author] [FK connected to AUTHOR]
+[Loan_Date]
+[Return_Date]
+
+ENTITY: VISITOR
+ATTRIBUTES:
+[Visitor] (PK)
+[First_Name]
+[Last_Name]
+[Place_Born]
+[Place_Died]
+[Date_Born]
+[Date_Died]
+
+
+
+
+
