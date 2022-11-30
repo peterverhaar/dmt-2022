@@ -1,0 +1,43 @@
+1. Select last_name, first_name
+   From AUTHOR ;
+2. Select name
+   From COUNTRY
+   Order by name asc ;
+3. Select year
+   from BOOK
+   where year >1995 and <2005 ;
+4. select first_name, last_name
+   from AUTHOR
+   where last-name like 'B%' ;
+5. select description
+   from GENRE
+   order by description asc ;
+6. select distinct (year)
+   from BOOK;
+7. select title
+   from BOOK
+   order by year desc ;
+8. select count(distinct nationality)
+   from AUTHOR;
+9. select avg(sold)
+   from BOOK
+10.select first_name, last_name, name
+   from author, country
+   where nationality=county_id
+
+Homework:
+15. 
+SELECT DISTINCT SOLD
+FROM BOOK
+ORDER BY YEAR;
+16.
+SELECT SOLD, DESCRIPTION
+FROM BOOK, GENRE;
+17.
+SELECT LAST_NAME, FIRST_NAME, SOLD
+FROM AUTHOR, BOOK;
+18. Can't figure this one out but tried:
+select first_name, last_name, sold
+from author, book
+where sold=author_id
+19. Also can't figure this one out
