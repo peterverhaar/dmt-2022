@@ -1,0 +1,50 @@
+15. For each year, show the total number of bestsellers;
+
+Answer: 
+	SELECT YEAR, COUNT(SOLD)
+	FROM BOOK
+	GROUP BY YEAR
+
+---
+
+16. For each genre, show the average number of sales. Display the name of the genre and not just the code;
+
+Answer:
+	SELECT DESCRIPTION, AVG(SOLD)
+	FROM BOOK
+	LEFT JOIN GENRE
+	ON GENRE = GENRE_ID
+	GROUP BY DESCRIPTION
+
+---
+
+17. For each author, show the total number of sales. Display both the first and the last of the authors;
+
+Answer:
+	SELECT FIRST_NAME, LAST_NAME, AVG(SOLD)
+	FROM BOOK
+	LEFT JOIN AUTHOR
+	ON AUTHOR = AUTHOR_ID
+	GROUP BY AUTHOR
+
+---
+
+18. Which authors have written more than one beststeller?;
+
+Answer:
+	SELECT FIRST_NAME, LAST_NAME
+	FROM AUTHOR
+	LEFT JOIN BOOK
+	ON AUTHOR = AUTHOR_ID
+	HAVING COUNT(*) > 1
+
+---
+
+19. Which publishers are responsible for more than three bestsellers?;
+
+Answer: 
+	SELECT PUBLISHER, NAME
+	FROM BOOK
+	LEFT JOIN PUBLISHER
+	ON PUBLISHER = PUBL_ID
+	HAVING COUNT(*) > 3 
